@@ -21,7 +21,7 @@ volatile int wave0 = 0, wave1 = 0;
 
 int i = 0;
 int sample;
-
+int t_sample;
 
 void setup() {
   analogWriteResolution(12);  // set the analog output resolution to 12 bit (4096 levels)
